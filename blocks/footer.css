@@ -13,13 +13,13 @@
   height: 39px;
   margin: 0;
   padding-left: 80px;
-  padding-top: 60px;
 }
 
 .footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  gap: 16px;
 }
 
 .footer__column-link {

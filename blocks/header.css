@@ -56,6 +56,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  padding-right: 127px;
 }
 
 .header__span-accent {
@@ -74,8 +75,12 @@
   color: #838383;
 }
 
-.header__paragraphs {
+.header__paragraph {
   margin: 0;
-  right: 80px;
-  bottom: 40px;
+  padding: 0;
+}
+
+.header__address {
+  margin: 0;
+  padding-top: 40px;
 }
