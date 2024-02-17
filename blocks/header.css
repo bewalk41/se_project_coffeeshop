@@ -5,19 +5,17 @@
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
-  background-image: url(../images/background_header.svg);
+  background: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffff;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .header__title {
   max-width: 729px;
-  font-size: 60px;
-  line-height: 70px;
   margin: 183px 0 0;
-  letter-spacing: -0.6px;
   font-weight: 500;
   font-family: "Inter";
   font-style: normal;
@@ -28,7 +26,6 @@
 }
 .header__span-accent {
   font-family: "Noto Serif";
-  font-style: italic;
   font-weight: 500;
   font-style: italic;
   font-weight: normal;
@@ -39,8 +36,6 @@
 
 .header__description {
   max-width: 683px;
-  font-size: 20px;
-  line-height: 30px;
   margin: 28px 0 0;
   font-family: "Noto Serif";
   font-style: normal;
@@ -56,11 +51,6 @@
   right: 5px;
   width: 646px;
   height: 568px;
-  padding-right: 127px;
-}
-
-.header__span-accent {
-  display: block;
 }
 
 .header__footer {

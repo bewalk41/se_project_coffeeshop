@@ -19,10 +19,12 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
-.footer__column-link {
+.footer__social-link {
   color: #ffffff;
   list-style-type: none;
   text-decoration: none;
@@ -33,7 +35,7 @@
   padding-right: 80px;
 }
 
-.footer__column-link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 

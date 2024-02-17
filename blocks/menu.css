@@ -5,21 +5,22 @@
 }
 
 .menu__title {
+  display: flex;
+  justify-content: center;
   margin: 0 0 24px;
   padding: 0;
-  text-align: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  max-width: 780px;
 }
 
 .menu__subtitle {
   margin: 0 auto;
-  text-align: center;
+  display: flex;
   max-width: 780px;
+  text-align: center;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -35,20 +36,4 @@
   padding: 0;
   margin: 100px 0 100px;
   list-style-type: none;
-}
-
-.card__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list-item {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
 }

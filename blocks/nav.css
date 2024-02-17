@@ -26,4 +26,9 @@
 .nav__link {
   color: black;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
