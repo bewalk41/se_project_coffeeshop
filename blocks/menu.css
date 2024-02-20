@@ -24,7 +24,7 @@
   margin-top: 24px;
   margin-bottom: 100px;
   text-align: center;
-  font-family: "Noto Serif", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,4 +42,5 @@
   gap: 100px;
   margin: 0;
   list-style-type: none;
+  padding-left: 0;
 }

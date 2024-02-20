@@ -46,11 +46,12 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: "Noto Serif", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 30px;
   margin-right: 80px;
+  font-size: 20px;
 }
 
 .about__circle {
@@ -66,4 +67,8 @@
 .about__paragraph {
   padding: 0;
   margin: 0 0 20px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
