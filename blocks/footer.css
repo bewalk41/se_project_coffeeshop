@@ -33,7 +33,7 @@
   align-items: center;
   font-size: 16px;
   padding-right: 80px;
-  transition: color 0.3s ease;
+  transition: ease 0.3s;
 }
 
 .footer__social-link:hover {
