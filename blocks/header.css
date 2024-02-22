@@ -72,3 +72,8 @@
   margin: 0;
   padding: 0;
 }
+
+.header__paragraphs {
+  margin: 0;
+  padding-top: 40px;
+}
